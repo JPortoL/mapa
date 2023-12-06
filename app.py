@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def raiz():
-    return render_template("hola.html")
+    return render_template("mapa.html")
 
 if __name__ == "__main__":
     app.run(debug=False)
