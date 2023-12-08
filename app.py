@@ -9,11 +9,11 @@ def raiz():
     return render_template("hola.html")
 
 @app.route("/mapa")
-def raiz():
+def mapa():
     return render_template("mapa.html")
 
 @app.route("/metro")
-def raiz():
+def metro():
     return render_template("metro.html")
 
 if __name__ == "__main__":
